@@ -1,7 +1,7 @@
 ---
 title: The Biohacker Test Hub: A Complete Guide to 20+ Foundational & Advanced Tests
 description: The definitive hub for biohacker tests. Explore 20 foundational and advanced tests for metabolism, hormones, longevity, and performance, with links to deep-dive guides and optimal ranges.
-slug: ultimate-biohacker-test-list
+slug: the-biohacker-test-hub
 ---
 
 # The Biohacker Test Hub: A Complete Guide to 20+ Foundational & Advanced Tests
