@@ -72,4 +72,110 @@ Below are the **20 most valuable biohacking tests**, ranked by usefulness, cost-
 **Why it matters:** Controls metabolism and energy  
 **Optimal TSH:** 0.5–2.0 mIU/L
 
---
+---
+
+### 9. Cortisol (AM or 4-Point Saliva)
+**What it measures:** Stress hormone output  
+**Why it matters:** Chronic stress sabotages hormones and metabolism  
+**Best use:** Identify adrenal dysregulation
+
+---
+
+## Tier 3: Advanced Metabolic & Cardiovascular Tests
+
+### 10. Fasting Insulin
+**What it measures:** Insulin resistance  
+**Why it matters:** Detects metabolic dysfunction earlier than glucose  
+**Optimal range:** < 5 μIU/mL
+
+---
+
+### 11. ApoB
+**What it measures:** Atherogenic particle count  
+**Why it matters:** Better heart disease predictor than LDL  
+**Optimal range:** < 80 mg/dL
+
+---
+
+### 12. Lipoprotein(a)
+**What it measures:** Genetic cardiovascular risk  
+**Why it matters:** Independent heart disease risk factor  
+**Note:** Test once in a lifetime
+
+---
+
+### 13. Uric Acid
+**What it measures:** Purine metabolism  
+**Why it matters:** Linked to insulin resistance and inflammation  
+**Optimal range:** 4–6 mg/dL
+
+---
+
+## Tier 4: Nutrients & Longevity Markers
+
+### 14. Ferritin
+**What it measures:** Iron storage  
+**Why it matters:** Too high or too low impairs performance  
+**Optimal range:** 50–100 ng/mL
+
+---
+
+### 15. Magnesium (RBC)
+**What it measures:** Intracellular magnesium  
+**Why it matters:** Energy production, sleep, muscle function  
+**Better than:** Serum magnesium
+
+---
+
+### 16. Omega-3 Index
+**What it measures:** EPA/DHA levels in red blood cells  
+**Why it matters:** Cardiovascular and brain health  
+**Optimal range:** > 8%
+
+---
+
+### 17. Homocysteine
+**What it measures:** Methylation efficiency  
+**Why it matters:** Cardiovascular and cognitive risk  
+**Optimal range:** < 8 μmol/L
+
+---
+
+## Tier 5: Optional Advanced Biohacking Tests
+
+### 18. Genetic Testing (SNPs)
+**What it measures:** Genetic predispositions  
+**Why it matters:** Personalizes nutrition and supplements  
+**Use wisely:** Genes guide strategy, not destiny
+
+---
+
+### 19. Microbiome Testing
+**What it measures:** Gut bacteria composition  
+**Why it matters:** Digestion, immunity, neurotransmitters  
+**Caution:** Still evolving science
+
+---
+
+### 20. Continuous Glucose Monitor (CGM)
+**What it measures:** Real-time glucose response  
+**Why it matters:** Reveals personal food responses  
+**Best use:** Short-term learning tool
+
+---
+
+## How to Use This Biohacker Test List
+
+1. Start with **Tier 1 tests**
+2. Fix obvious metabolic and inflammatory issues
+3. Layer in hormones and advanced markers
+4. Retest every 3–6 months
+5. Adjust lifestyle, diet, sleep, and supplements
+
+---
+
+## The Bottom Line
+
+The **ultimate biohacker test list** gives you the data needed to move from guesswork to precision. Testing allows you to measure, optimize, retest, and continuously improve your health.
+
+Test intelligently. Optimize deliberately. Retest consistently.
