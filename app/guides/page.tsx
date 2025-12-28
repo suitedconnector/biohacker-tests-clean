@@ -13,7 +13,7 @@ const guides = [
   },
   {
     slug: "the-biohacker-test-hub",
-    title: "The Biohacker Test Hub"
+    title: "The Biohacker Test Hub - A Complete Guide to 20+ Foundational & Advanced Tests"
   },
   {
     slug: "order-lab-tests-without-doctor",
