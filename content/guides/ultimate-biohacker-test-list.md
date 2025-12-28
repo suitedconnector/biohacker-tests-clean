@@ -1,48 +1,75 @@
-# Ultimate Biohacker Test List
+---
+title: Ultimate Biohacker Test List (20 Tests Ranked by Value)
+description: A complete, evidence-based list of the most important biohacker tests to measure metabolism, hormones, inflammation, longevity, and performance.
+slug: ultimate-biohacker-test-list
+---
 
-This guide covers a comprehensive set of tests for biohackers who want to track and optimize health at every level. Start with the basics and add more advanced tests as you progress.
+# Ultimate Biohacker Test List: 20 Tests Ranked by Value
 
-## 1. Blood Tests
+The **ultimate biohacker test list** gives you a clear, practical roadmap for measuring and optimizing your health. Instead of guessing, biohackers use data to understand metabolism, hormones, inflammation, nutrient status, and long-term disease risk.
 
-- **Complete Blood Count (CBC)**: General health snapshot.
-- **Comprehensive Metabolic Panel (CMP)**: Liver, kidney, electrolytes.
-- **Lipid Panel**: Cholesterol, triglycerides, and heart health.
-- **Vitamin & Mineral Levels**: Vitamin D, B12, magnesium, iron, zinc.
+Most people only get tested when something is already wrong. Biohackers test proactively — looking for **suboptimal markers long before disease develops**.
 
-## 2. Hormone Tests
+Below are the **20 most valuable biohacking tests**, ranked by usefulness, cost-effectiveness, and actionability.
 
-- **Cortisol**: Stress hormone, daily rhythm.
-- **Testosterone / Estrogen / Progesterone**: Sex hormones balance.
-- **Thyroid Panel**: TSH, T3, T4.
-- **Insulin and Glucose**: Metabolic health and diabetes risk.
+---
 
-## 3. Gut & Microbiome Tests
+## Tier 1: Foundational Biohacker Tests (Start Here)
 
-- **Stool Analysis**: Digestive health, gut bacteria composition.
-- **Food Sensitivity Tests**: Identify intolerances or allergies.
-- **SIBO Test**: Small Intestinal Bacterial Overgrowth check.
+### 1. Comprehensive Metabolic Panel (CMP)
+**What it measures:** Glucose, liver enzymes, kidney function, electrolytes  
+**Why it matters:** Provides a baseline snapshot of metabolic health  
+**Optimal range focus:** Fasting glucose 70–85 mg/dL
 
-## 4. Cardiovascular & Metabolic
+---
 
-- **HbA1c**: Long-term blood sugar levels.
-- **CRP / hsCRP**: Inflammation marker.
-- **Homocysteine**: Cardiovascular risk indicator.
+### 2. Lipid Panel (Basic)
+**What it measures:** Total cholesterol, LDL, HDL, triglycerides  
+**Why it matters:** Reveals cardiovascular and metabolic risk  
+**Optimization tip:** Focus on triglycerides and HDL, not just LDL
 
-## 5. Sleep & Stress
+---
 
-- **Sleep Tracking**: Wearable or polysomnography.
-- **Heart Rate Variability (HRV)**: Stress and recovery metric.
+### 3. HbA1c
+**What it measures:** Average blood glucose over 2–3 months  
+**Why it matters:** One of the strongest predictors of aging and disease  
+**Optimal range:** Under 5.0%
 
-## 6. Optional / Advanced
+---
 
-- **Genetic Testing (DNA / SNPs)**: Predispositions, nutrigenomics.
-- **Heavy Metal Testing**: Mercury, lead, arsenic.
-- **Advanced Lipoprotein Testing**: LDL particle size and number.
+### 4. High-Sensitivity CRP (hs-CRP)
+**What it measures:** Systemic inflammation  
+**Why it matters:** Chronic inflammation drives aging and disease  
+**Optimal range:** < 1.0 mg/L
 
-## Tips for Using These Tests
+---
 
-1. **Start with basics**: CBC, CMP, lipid panel, and vitamin/mineral levels.
-2. **Track trends, not single numbers**: Retest periodically to monitor progress.
-3. **Combine results with lifestyle data**: Sleep, diet, exercise, and stress tracking provide context.
-4. **Consult professionals if needed**: Even self-directed biohackers benefit from expert guidance when interpreting complex results.
+### 5. Vitamin D (25-Hydroxy)
+**What it measures:** Vitamin D status  
+**Why it matters:** Immune function, hormones, recovery, mood  
+**Optimal range:** 50–80 ng/mL
 
+---
+
+## Tier 2: Hormones & Thyroid Optimization
+
+### 6. Testosterone (Men)
+**What it measures:** Total and free testosterone  
+**Why it matters:** Energy, muscle, motivation, recovery  
+**Optimal range:** 600–900 ng/dL total (age-dependent)
+
+---
+
+### 7. Female Hormone Panel (Women)
+**What it measures:** Estrogen, progesterone, testosterone, SHBG  
+**Why it matters:** Mood, metabolism, fertility, body composition  
+**Note:** Timing matters based on cycle phase
+
+---
+
+### 8. Thyroid Panel (Complete)
+**What it measures:** TSH, Free T3, Free T4, Reverse T3, antibodies  
+**Why it matters:** Controls metabolism and energy  
+**Optimal TSH:** 0.5–2.0 mIU/L
+
+--
