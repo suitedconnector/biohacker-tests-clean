@@ -12,6 +12,9 @@ const guides = [
     title: "Top 5 Biohacking Tests Every Beginner Should Start With"
   },
   {
+    slug: "ultimate-biohacker-test-list",
+    title: "Ultimate Biohacker Test List"
+  {
     slug: "order-lab-tests-without-doctor",
     title: "How to Order Lab Tests Without a Doctor"
   }
