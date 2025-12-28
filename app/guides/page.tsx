@@ -14,6 +14,7 @@ const guides = [
   {
     slug: "ultimate-biohacker-test-list",
     title: "Ultimate Biohacker Test List"
+  },
   {
     slug: "order-lab-tests-without-doctor",
     title: "How to Order Lab Tests Without a Doctor"
