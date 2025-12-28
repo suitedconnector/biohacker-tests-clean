@@ -15,13 +15,13 @@ export async function generateStaticParams() {
   const files = fs.readdirSync(guidesDir)
 
   return files.map((file) => ({
-    slug: file.replace(/\.md$/, ""),
+    slug: file.replace(/\.mdx$/, ""),
   }))
 }
 
 export default function GuidePage({ params }: Props) {
   const guidesDir = path.join(process.cwd(), "content/guides")
-  const filePath = path.join(guidesDir, `${params.slug}.md`)
+  const filePath = path.join(guidesDir, `${params.slug}.mdx`)
 
   if (!fs.existsSync(filePath)) {
     return notFound()
@@ -31,7 +31,7 @@ export default function GuidePage({ params }: Props) {
 
   const otherGuides = fs
     .readdirSync(guidesDir)
-    .map((f) => f.replace(/\.md$/, ""))
+    .map((f) => f.replace(/\.mdx$/, ""))
     .filter((slug) => slug !== params.slug)
 
   return (
