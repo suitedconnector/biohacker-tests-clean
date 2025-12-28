@@ -1,9 +1,3 @@
----
-title: The Biohacker Test Hub: A Complete Guide to 20+ Foundational & Advanced Tests
-description: The definitive hub for biohacker tests. Explore 20 foundational and advanced tests for metabolism, hormones, longevity, and performance, with links to deep-dive guides and optimal ranges.
-slug: the-biohacker-test-hub
----
-
 # The Biohacker Test Hub: A Complete Guide to 20+ Foundational & Advanced Tests
 
 The **Biohacker Test Hub** is your central resource for understanding, measuring, and optimizing your health data. Biohacking is the art and science of using data to move from guesswork to precision, allowing you to identify **suboptimal markers long before disease develops**.
@@ -14,28 +8,116 @@ This page serves as the **Pillar Guide** to the 20 most valuable biohacking test
 
 Use this table to quickly identify the tests most relevant to your current health goals. Click on any test name to navigate to the full, dedicated guide.
 
-| Rank | Test Name | Primary Focus | Cost Estimate | Actionability | Deep Dive Guide |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | Comprehensive Metabolic Panel (CMP) | Baseline Metabolic Health | $ | High | [Read Full CMP Guide](/tests/comprehensive-metabolic-panel) |
-| **Tier 1** | Lipid Panel (Basic) | Cardiovascular Risk | $ | High | [Read Full Lipid Panel Guide](/tests/lipid-panel-review) |
-| **Tier 1** | HbA1c | Long-Term Glucose Control | $ | High | [Read Full HbA1c Guide](/biomarkers/hba1c-optimal-range) |
-| **Tier 1** | High-Sensitivity CRP (hs-CRP) | Systemic Inflammation | $ | High | [Read Full hs-CRP Guide](/biomarkers/hs-crp-optimal-range) |
-| **Tier 1** | Vitamin D (25-Hydroxy) | Immune Function & Hormones | $ | High | [Read Full Vitamin D Guide](/biomarkers/vitamin-d-optimal-range) |
-| **Tier 2** | Testosterone (Men) | Energy, Muscle, Motivation | $$ | Medium | [Read Full Testosterone Guide](/tests/testosterone-panel-review) |
-| **Tier 2** | Female Hormone Panel (Women) | Mood, Metabolism, Fertility | $$$ | Medium | [Read Full Female Hormone Guide](/tests/female-hormone-panel-review) |
-| **Tier 2** | Thyroid Panel (Complete) | Metabolism & Energy | $$ | Medium | [Read Full Thyroid Panel Guide](/tests/complete-thyroid-panel-review) |
-| **Tier 2** | Cortisol (AM or 4-Point Saliva) | Stress Hormone Output | $$$ | High | [Read Full Cortisol Guide](/tests/cortisol-test-review) |
-| **Tier 3** | Fasting Insulin | Insulin Resistance | $$ | High | [Read Full Fasting Insulin Guide](/biomarkers/fasting-insulin-optimal-range) |
-| **Tier 3** | ApoB | Atherogenic Particle Count | $$ | Medium | [Read Full ApoB Guide](/biomarkers/apob-optimal-range) |
-| **Tier 3** | Lipoprotein(a) | Genetic Cardiovascular Risk | $$$ | Low | [Read Full Lp(a) Guide](/biomarkers/lipoproteina-optimal-range) |
-| **Tier 3** | Uric Acid | Inflammation & Metabolic Link | $ | Medium | [Read Full Uric Acid Guide](/biomarkers/uric-acid-optimal-range) |
-| **Tier 4** | Ferritin | Iron Storage & Performance | $ | Medium | [Read Full Ferritin Guide](/biomarkers/ferritin-optimal-range) |
-| **Tier 4** | Magnesium (RBC) | Intracellular Nutrient Status | $$ | Medium | [Read Full Magnesium RBC Guide](/biomarkers/magnesium-rbc-optimal-range) |
-| **Tier 4** | Omega-3 Index | Cardiovascular & Brain Health | $$ | Medium | [Read Full Omega-3 Index Guide](/biomarkers/omega-3-index-optimal-range) |
-| **Tier 4** | Homocysteine | Methylation Efficiency | $$ | Medium | [Read Full Homocysteine Guide](/biomarkers/homocysteine-optimal-range) |
-| **Tier 5** | Genetic Testing (SNPs) | Personalized Predispositions | $$$ | Low | [Read Full Genetic Testing Guide](/tests/genetic-testing-snps-review) |
-| **Tier 5** | Microbiome Testing | Gut Health & Immunity | $$$$ | Medium | [Read Full Microbiome Testing Guide](/tests/microbiome-testing-review) |
-| **Tier 5** | Continuous Glucose Monitor (CGM) | Real-Time Food Response | $$$$ | High | [Read Full CGM Guide](/tests/cgm-review) |
+<style>
+/* Responsive Table CSS - Transforms to cards on mobile */
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.responsive-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.responsive-table th,
+.responsive-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+.responsive-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.responsive-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.responsive-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+/* Mobile View: Table to Cards */
+@media screen and (max-width: 600px) {
+    .responsive-table {
+        border: 0;
+    }
+
+    .responsive-table thead {
+        display: none;
+    }
+
+    .responsive-table tr {
+        display: block;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .responsive-table td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    .responsive-table td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+        color: #333;
+    }
+}
+</style>
+
+<table class="responsive-table">
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Test Name</th>
+            <th>Primary Focus</th>
+            <th>Cost Estimate</th>
+            <th>Actionability</th>
+            <th>Deep Dive Guide</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td data-label="Rank"><strong>Tier 1</strong></td><td data-label="Test Name">Comprehensive Metabolic Panel (CMP)</td><td data-label="Primary Focus">Baseline Metabolic Health</td><td data-label="Cost Estimate">$</td><td data-label="Actionability">High</td><td data-label="Deep Dive Guide"><a href="/tests/comprehensive-metabolic-panel">Read Full CMP Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 1</strong></td><td data-label="Test Name">Lipid Panel (Basic)</td><td data-label="Primary Focus">Cardiovascular Risk</td><td data-label="Cost Estimate">$</td><td data-label="Actionability">High</td><td data-label="Deep Dive Guide"><a href="/tests/lipid-panel-review">Read Full Lipid Panel Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 1</strong></td><td data-label="Test Name">HbA1c</td><td data-label="Primary Focus">Long-Term Glucose Control</td><td data-label="Cost Estimate">$</td><td data-label="Actionability">High</td><td data-label="Deep Dive Guide"><a href="/biomarkers/hba1c-optimal-range">Read Full HbA1c Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 1</strong></td><td data-label="Test Name">High-Sensitivity CRP (hs-CRP)</td><td data-label="Primary Focus">Systemic Inflammation</td><td data-label="Cost Estimate">$</td><td data-label="Actionability">High</td><td data-label="Deep Dive Guide"><a href="/biomarkers/hs-crp-optimal-range">Read Full hs-CRP Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 1</strong></td><td data-label="Test Name">Vitamin D (25-Hydroxy)</td><td data-label="Primary Focus">Immune Function & Hormones</td><td data-label="Cost Estimate">$</td><td data-label="Actionability">High</td><td data-label="Deep Dive Guide"><a href="/biomarkers/vitamin-d-optimal-range">Read Full Vitamin D Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 2</strong></td><td data-label="Test Name">Testosterone (Men)</td><td data-label="Primary Focus">Energy, Muscle, Motivation</td><td data-label="Cost Estimate">$$</td><td data-label="Actionability">Medium</td><td data-label="Deep Dive Guide"><a href="/tests/testosterone-panel-review">Read Full Testosterone Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 2</strong></td><td data-label="Test Name">Female Hormone Panel (Women)</td><td data-label="Primary Focus">Mood, Metabolism, Fertility</td><td data-label="Cost Estimate">$$$</td><td data-label="Actionability">Medium</td><td data-label="Deep Dive Guide"><a href="/tests/female-hormone-panel-review">Read Full Female Hormone Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 2</strong></td><td data-label="Test Name">Thyroid Panel (Complete)</td><td data-label="Primary Focus">Metabolism & Energy</td><td data-label="Cost Estimate">$$</td><td data-label="Actionability">Medium</td><td data-label="Deep Dive Guide"><a href="/tests/complete-thyroid-panel-review">Read Full Thyroid Panel Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 2</strong></td><td data-label="Test Name">Cortisol (AM or 4-Point Saliva)</td><td data-label="Primary Focus">Stress Hormone Output</td><td data-label="Cost Estimate">$$$</td><td data-label="Actionability">High</td><td data-label="Deep Dive Guide"><a href="/tests/cortisol-test-review">Read Full Cortisol Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 3</strong></td><td data-label="Test Name">Fasting Insulin</td><td data-label="Primary Focus">Insulin Resistance</td><td data-label="Cost Estimate">$$</td><td data-label="Actionability">High</td><td data-label="Deep Dive Guide"><a href="/biomarkers/fasting-insulin-optimal-range">Read Full Fasting Insulin Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 3</strong></td><td data-label="Test Name">ApoB</td><td data-label="Primary Focus">Atherogenic Particle Count</td><td data-label="Cost Estimate">$$</td><td data-label="Actionability">Medium</td><td data-label="Deep Dive Guide"><a href="/biomarkers/apob-optimal-range">Read Full ApoB Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 3</strong></td><td data-label="Test Name">Lipoprotein(a)</td><td data-label="Primary Focus">Genetic Cardiovascular Risk</td><td data-label="Cost Estimate">$$$</td><td data-label="Actionability">Low</td><td data-label="Deep Dive Guide"><a href="/biomarkers/lipoproteina-optimal-range">Read Full Lp(a) Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 3</strong></td><td data-label="Test Name">Uric Acid</td><td data-label="Primary Focus">Inflammation & Metabolic Link</td><td data-label="Cost Estimate">$</td><td data-label="Actionability">Medium</td><td data-label="Deep Dive Guide"><a href="/biomarkers/uric-acid-optimal-range">Read Full Uric Acid Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 4</strong></td><td data-label="Test Name">Ferritin</td><td data-label="Primary Focus">Iron Storage & Performance</td><td data-label="Cost Estimate">$</td><td data-label="Actionability">Medium</td><td data-label="Deep Dive Guide"><a href="/biomarkers/ferritin-optimal-range">Read Full Ferritin Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 4</strong></td><td data-label="Test Name">Magnesium (RBC)</td><td data-label="Primary Focus">Intracellular Nutrient Status</td><td data-label="Cost Estimate">$$</td><td data-label="Actionability">Medium</td><td data-label="Deep Dive Guide"><a href="/biomarkers/magnesium-rbc-optimal-range">Read Full Magnesium RBC Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 4</strong></td><td data-label="Test Name">Omega-3 Index</td><td data-label="Primary Focus">Cardiovascular & Brain Health</td><td data-label="Cost Estimate">$$</td><td data-label="Actionability">Medium</td><td data-label="Deep Dive Guide"><a href="/biomarkers/omega-3-index-optimal-range">Read Full Omega-3 Index Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 4</strong></td><td data-label="Test Name">Homocysteine</td><td data-label="Primary Focus">Methylation Efficiency</td><td data-label="Cost Estimate">$$</td><td data-label="Actionability">Medium</td><td data-label="Deep Dive Guide"><a href="/biomarkers/homocysteine-optimal-range">Read Full Homocysteine Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 5</strong></td><td data-label="Test Name">Genetic Testing (SNPs)</td><td data-label="Primary Focus">Personalized Predispositions</td><td data-label="Cost Estimate">$$$</td><td data-label="Actionability">Low</td><td data-label="Deep Dive Guide"><a href="/tests/genetic-testing-snps-review">Read Full Genetic Testing Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 5</strong></td><td data-label="Test Name">Microbiome Testing</td><td data-label="Primary Focus">Gut Health & Immunity</td><td data-label="Cost Estimate">$$$$</td><td data-label="Actionability">Medium</td><td data-label="Deep Dive Guide"><a href="/tests/microbiome-testing-review">Read Full Microbiome Testing Guide</a></td></tr>
+        <tr><td data-label="Rank"><strong>Tier 5</strong></td><td data-label="Test Name">Continuous Glucose Monitor (CGM)</td><td data-label="Primary Focus">Real-Time Food Response</td><td data-label="Cost Estimate">$$$$</td><td data-label="Actionability">High</td><td data-label="Deep Dive Guide"><a href="/tests/cgm-review">Read Full CGM Guide</a></td></tr>
+    </tbody>
+</table>
 
 ## Tier 1: Foundational Biohacker Tests (Start Here)
 
@@ -105,7 +187,7 @@ These markers provide a deeper, more predictive look at your long-term risk for 
 **Action:** [**Explore the ApoB Optimal Range Guide**](/biomarkers/apob-optimal-range) to understand why particle count is more important than cholesterol mass.
 
 ### 12. Lipoprotein(a)
-**What it measures:** Genetic cardiovascular risk.
+**What it measures:** Genetic Cardiovascular Risk.
 **Why it matters:** Independent heart disease risk factor.
 **Action:** [**Explore the Lp(a) Guide**](/biomarkers/lipoproteina-optimal-range) to understand this one-time test and its implications.
 
